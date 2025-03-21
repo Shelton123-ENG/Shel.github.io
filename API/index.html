@@ -29,7 +29,7 @@
 
     
       
-        <title>API - EGR314 Report Template</title>
+        <title>Messages Received - EGR314 Report Template</title>
       
     
     
@@ -92,6 +92,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#messages-received" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -123,7 +128,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              API
+              Messages Received
             
           </span>
         </div>
@@ -221,7 +226,7 @@
   
     
   
-  API
+  Messages Received
 
       </a>
     </li>
@@ -414,16 +419,55 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Messages Received
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
-    API
+    Messages Received
   </span>
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#message-type-3-voltage-readings" class="md-nav__link">
+    Message Type 3 (Voltage Readings)
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -584,6 +628,23 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#message-type-3-voltage-readings" class="md-nav__link">
+    Message Type 3 (Voltage Readings)
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -606,11 +667,9 @@
   
 
 
-  <h1>API</h1>
-
-<p>Messages Recieved</p>
-<p>## Message Type 3 (Voltage Readings)
-  ## Recieved and displayed on phone</p>
+<h1 id="messages-received">Messages Received</h1>
+<h3 id="message-type-3-voltage-readings">Message Type 3 (Voltage Readings)</h3>
+<p>This message is received and displayed on the phone.  </p>
 <table>
 <thead>
 <tr>
@@ -621,35 +680,36 @@
 </thead>
 <tbody>
 <tr>
-<td>Variable Name</td>
+<td><strong>Variable Name</strong></td>
 <td>Voltage_Sensor</td>
 <td>Voltage_Reading</td>
 </tr>
 <tr>
-<td>Variable Type</td>
+<td><strong>Variable Type</strong></td>
 <td>Char</td>
 <td>Float</td>
 </tr>
 <tr>
-<td>Min Value</td>
+<td><strong>Min Value</strong></td>
 <td>V</td>
 <td>0.0</td>
 </tr>
 <tr>
-<td>Max Value</td>
+<td><strong>Max Value</strong></td>
 <td>V</td>
 <td>5.0</td>
 </tr>
 <tr>
-<td>Example</td>
+<td><strong>Example</strong></td>
 <td>V</td>
 <td>3.4</td>
 </tr>
 </tbody>
 </table>
-<p>Messages Sent</p>
-<p>## Message Type 1 (automatic/manual toggle)
- ## message is uesed to toggle motor function from state 0 to state 1</p>
+<hr />
+<h1 id="messages-sent">Messages Sent</h1>
+<h3 id="message-type-1-automaticmanual-toggle">Message Type 1 (Automatic/Manual Toggle)</h3>
+<p>This message is used to toggle the motor function between state 0 and state 1.  </p>
 <table>
 <thead>
 <tr>
@@ -659,23 +719,23 @@
 </thead>
 <tbody>
 <tr>
-<td>Variable Name</td>
+<td><strong>Variable Name</strong></td>
 <td>auto_toggle</td>
 </tr>
 <tr>
-<td>Variable Type</td>
+<td><strong>Variable Type</strong></td>
 <td>uint8_t</td>
 </tr>
 <tr>
-<td>Min Value</td>
-<td>1</td>
-</tr>
-<tr>
-<td>Max Value</td>
+<td><strong>Min Value</strong></td>
 <td>0</td>
 </tr>
 <tr>
-<td>Example</td>
+<td><strong>Max Value</strong></td>
+<td>1</td>
+</tr>
+<tr>
+<td><strong>Example</strong></td>
 <td>1</td>
 </tr>
 </tbody>
