@@ -687,8 +687,10 @@
 <thead>
 <tr>
 <th></th>
-<th>Byte 1</th>
-<th>Byte 2</th>
+<th>Byte 1-2</th>
+<th>Byte 3-6</th>
+<th>Byte 7-8</th>
+<th>Byte 9-12</th>
 </tr>
 </thead>
 <tbody>
@@ -696,26 +698,36 @@
 <td>Variable Name</td>
 <td>light_sensor</td>
 <td>light_reading</td>
+<td>light_sensor</td>
+<td>light_reading</td>
 </tr>
 <tr>
 <td>Variable Type</td>
 <td>char</td>
 <td>char</td>
+<td>char</td>
+<td>char</td>
 </tr>
 <tr>
 <td>Min Value</td>
-<td>S1-S2</td>
+<td>S1</td>
+<td>0000</td>
+<td>S2</td>
 <td>0000</td>
 </tr>
 <tr>
 <td>Max Value</td>
-<td>S1-S2</td>
+<td>S1</td>
+<td>5400</td>
+<td>S2</td>
 <td>5400</td>
 </tr>
 <tr>
 <td>Example</td>
-<td>S1-S2</td>
+<td>S1</td>
 <td>2750</td>
+<td>S2</td>
+<td>1532</td>
 </tr>
 </tbody>
 </table>
@@ -770,11 +782,11 @@
 <tbody>
 <tr>
 <td>recieved</td>
-<td>AZhlS15400YB</td>
+<td>AZhlS15400S21345YB</td>
 </tr>
 <tr>
 <td>sent</td>
-<td>AZlfM0YB</td>
+<td>AZlfM0S15400S23400YB</td>
 </tr>
 </tbody>
 </table>
