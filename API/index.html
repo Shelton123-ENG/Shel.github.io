@@ -689,7 +689,7 @@
 
 <hr />
 <h1 id="my-role">My Role</h1>
-<p>Each team member in the daisy chain phas a role in the daisy chain. Their message is denoted by their last name. (L for Larance and so on). My job is to handle the v as the WIFI is to display voltage, as well as pass on the mode change message to the HMI.</p>
+<p>Each team member in the daisy chain phas a role in the daisy chain. Their message is denoted by their last name. (l for Larance and so on). My job is to handle the light sensor values, S1 and S2 and display them in the MQTT server and pass the values alongside the 'mode' change to the HMI which then passes it to the other systems as needed.</p>
 <table>
 <thead>
 <tr>
@@ -717,7 +717,7 @@
 </tbody>
 </table>
 <h1 id="messages-received">Messages Received</h1>
-<h3 id="message-type-3-voltage-readings-from-solar-panel">Message Type 3 (Voltage Readings from Solar Panel)</h3>
+<h3 id="message-type-3-light-readings-from-the-sensors">Message Type 3 (Light Readings from the sensors)</h3>
 <p><b><i>Received and Forwarded to MQTT</i></b></p>
 <table>
 <thead>
@@ -768,7 +768,7 @@
 </tbody>
 </table>
 <h1 id="messages-sent">Messages Sent</h1>
-<h3 id="message-type-1-wifi-toggle-automanual">Message Type 1 (Wifi Toggle - Auto/Manual)</h3>
+<h3 id="message-type-1-wifi-toggle-automaticmanual">Message Type 1 (Wifi Toggle - Automatic/Manual)</h3>
 <p><b><i>Used to toggle stepper motor functionality from automatic (state 0) to manual (state 1).</i></b></p>
 <table>
 <thead>
@@ -807,7 +807,7 @@
 </tbody>
 </table>
 <h3 id="all-messages-are-to-be-sent-and-received-as-individual-char-characters">ALL messages are to be sent and received as individual Char characters</h3>
-<h3 id="some-valid-message-examples">Some Valid Message Examples</h3>
+<h3 id="valid-message-examples">Valid Message Examples</h3>
 <table>
 <thead>
 <tr>
